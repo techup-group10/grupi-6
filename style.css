@@ -4,17 +4,21 @@
 
 #header {	
     text-align: center;
-    background-color: #247BA0;
+    background-color: #1eb2ec;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius:16px;
+    
+    
 
 }
 
 
 #foto1 {
-    width: 100px;
-      height: 100px;
+    width: 600px;
+      height: 600px;
     display: block;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 ul {
@@ -66,6 +70,27 @@ th {
 
 .footer {
     background-color: #5ADBFF;
+
     padding: 0.5em;
     text-align: right;
 }
+th:hover {
+    background-color :blue;
+
+}
+tr:nth-child(even){
+    background-color: blue;
+    }
+    tr:nth-child(odd){
+    background-color: green;
+    }
+    #foto1:hover {
+        border-radius: 16px;
+        width: 200px;
+        height: 200px;
+        margin-left: 40px;
+        margin-top: 40px;
+      }
+      tr td:hover{
+        background-color: white
+      }
