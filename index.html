@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Kursi TechUP</title>
-	  	<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-	  <div id="header">
-  		<h1>Tungjatjeta, unë jam pjesë e kursit TechUP</h1>
-		<p>Uebfaqja jonë personale.</p>
-        <h3>shkolla mesme industriale</h3>
-	  </div>
-		<ul>
-			<li>
-			  <a href="gallery.html">Galeria</a>
-		  	</li>
-			<li>
-			  <a href="about.html">Rreth nesh</a>
-		  	</li>
-			<li>
-			  <a href="contact.html">Kontakt</a>
-		  	</li>
-		</ul>
-		<h1>Galeria ime</h1>
-		<p>
-		Këtu do vendosim fotografitë tona që do i shfaqim për të tjerët.
-		</p>
-		<img id="foto1" src="download (1).jpg" alt="Foto1"> 
-	  	<table>
-			<caption>Informatat e personit</caption>
-			<tr>
-				<th>Emri</th>
-				<th>Mbiemri</th>
-				<th>Mosha</th>
-				<th>Gjinia</th>
-                <th>vendlindja</th>
-			</tr>
-			<tr>
-				<td>Hasan</td>
-				<td>Hiseni</td>
-				<td>17</td>
-				<td>M</td>
-                <td>gradec</td>
-			</tr>
-		  	<tr>
-				<td>Fisnike</td>
-				<td>Hasani</td>
-				<td>18</td>
-				<td>F</td>
-                <td>gostivar</td>
-			</tr>
-		</table>
-	  <div class="footer">
-		<p>Contact info: 070 071 072</p>
-	  </div>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Kursi TechUP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="px-2 py-5">
+    <div class="bg-cyan-700 font-mono text-center">
+        <h1 class="text-3xl mb-4">Tungjatjeta, unë jam pjesë e kursit TechUP</h1>
+        <p>Uebfaqja jonë personale.</p>
+    </div>
+    <div class="flex items-center justify-between">
+        <h1 class="text-3xl">Galeria ime</h1>
+        <ul class="flex mt-3.5 space-x-6">
+            <li class="p-3.5 bg-cyan-700 hover:bg-cyan-300 hover:text-cyan-700 text-cyan-300">
+                <a href="gallery.html">Galeria</a>
+            </li>
+            <li class="p-3.5 bg-cyan-700 hover:bg-cyan-300 hover:text-cyan-700 text-cyan-300">
+                <a href="about.html">Rreth nesh</a>
+            </li>
+            <li class="p-3.5 bg-cyan-700 hover:bg-cyan-300 hover:text-cyan-700 text-cyan-300">
+                <a href="contact.html">Kontakt</a>
+            </li>
+        </ul>
+    </div>
+	<img src="foto1.jpg" alt="Foto1" class="w-[50%] my-10 h-auto mr-auto ml-auto" mx-auto>    <table class="w-full">
+        <caption class="caption-bottom">InformatatQ e personit</caption>
+        <tr>
+            <th class="text-center p-2 bg-sky-900 text-white">Emri</th>
+            <th class="text-center p-2 bg-sky-900 text-white hover:text-black">Mbiemri</th>
+            <th class="text-center p-2 bg-sky-900 text-white">Mosha</th>
+            <th class="text-center p-2 bg-sky-900 text-white">Gjinia</th>
+        </tr>
+        <tr>
+            <td class="text-center p-2">Hasan</td>
+            <td class="text-center p-2">Hiseni</td>
+            <td class="text-center p-2">17</td>
+            <td class="text-center p-2">M</td>
+        </tr>
+        <tr>
+            <td class="text-center p-2">Fisnike</td>
+            <td class="text-center p-2">Hasani</td>
+            <td class="text-center p-2">18</td>
+            <td class="text-center p-2">F</td>
+        </tr>
+    </table>
+    <div class="text-right p-5 bg-cyan-300">
+        <p>Contact info: 070 071 072</p>
+    </div>
+
+</div>
+<div class="bg-white font-mono text-center">
+	<h1 class="text-3xl mb-4">Support center</h1>
+	<p class="caption-bottom">get the help you need</caption>
+	<p> if you need to learn something just ask or google it for more informattion click the link below .</p>
+	<p>https/link.com</p>
+	
+</body> 
 </html>
